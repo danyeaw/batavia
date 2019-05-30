@@ -251,7 +251,7 @@ def_op('BUILD_CONST_KEY_MAP', 156)
 // Introduced in Python 3.7
 def_op('BUILD_STRING', 157)
 def_op('BUILD_TUPLE_UNPACK_WITH_CALL', 158)
-def_op('LOAD_METHOD', 160)
+name_op('LOAD_METHOD', 160)
 def_op('CALL_METHOD', 161)
 dis.hasnargs[161] = 161
 
